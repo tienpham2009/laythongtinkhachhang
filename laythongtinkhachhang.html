@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lấy thông tin khach hàng</title>
+</head>
+<body>
+<form>
+    <h2>Market Research Survey</h2>
+    <p>Please take a few moments to complete this satisfaction survey.</p>
+    <hr/>
+    <p>What is your age range?</p>
+    <select name="Tuổi">
+        <option>18-24</option>
+        <option>25-29</option>
+        <option>29-34</option>
+        <option>35-50</option>
+        <option>50+</option>
+    </select>
+    <p>What is your yearly income range?</p>
+    <select name="tiền">
+        <option>$0-$25.000</option>
+        <option>$25.000-$50.000</option>
+        <option>$50.000-$100.000</option>
+        <option>$100.000+</option>
+
+    </select>
+    <p>Gender Identity</p>
+    <input name="Nam" value="Male" type="radio">male <br>
+    <input name="Nữ" value="female" type="radio">female <br>
+    <input name="Nonbinary" value="Nonbinary" type="radio">Nonbinary<br>
+    <input name="Other" value="Other" type="radio">Other<br>
+    <input type="text" size="10">
+    <p>Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+    <input name="product" type="checkbox">Product1 <br>
+    <input name="product" type="checkbox">Product2 <br>
+    <input name="product" type="checkbox">Product3 <br>
+    <p>How often would you use our new product?</p>
+    <input name="time" type="radio" >Daily <br>
+    <input name="time" type="radio" >Weekly <br>
+    <input name="time" type="radio" >Monthly <br>
+    <p>What would you pay for the new product?</p>
+    <table style="border: black" border="1px">
+        <tr>
+            <td>$</td>
+            <td><input style="width: 40px" type="text"></td>
+            <td>.</td>
+            <td><input style="width: 5px"></td>
+            </tr>
+
+        <tr>
+            <td></td>
+            <td style="font-size: 15px" >Dollar</td>
+            <td></td>
+            <td style="font-size: 15px">Cents</td>
+        </tr>
+        <p>What features would yoi like to see in the new product</p>
+
+    </table>
+    
+
+
+</form>
+</body>
+</html>
